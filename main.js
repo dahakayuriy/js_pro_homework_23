@@ -5,7 +5,7 @@ document.getElementById("addTaskBtn").addEventListener("click", function () {
 
   if (taskText !== "") {
     let li = document.createElement("li");
-    li.innerHTML = taskText + ' <button class="delete-btn">Видалити</button>';
+    li.innerHTML = taskText + ' <button class="delete-btn">Delete</button>';
     document.getElementById("taskList").appendChild(li);
     taskInput.value = "";
   }
